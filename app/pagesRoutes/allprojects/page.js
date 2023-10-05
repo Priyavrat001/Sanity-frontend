@@ -3,6 +3,7 @@ import React from "react"
 const Allproject = () => {
   return (
     < div >
+      <h1 className="text-blue-800 text-5xl text-center my-3">Here is my all Projects</h1>
       <div className="container mx-auto text-center">
         <button className="bg-blue-500 mx-10 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded my-5">
           JavaScript

@@ -11,7 +11,7 @@ const page = async () => {
       <div className="bg-grey-50" id="blog">
         <div className="container py-16 md:py-20">
           <h2
-            className="text-center font-header text-4xl font-semibold uppercase text-blue-200 sm:text-5xl lg:text-6xl"
+            className="text-center font-header text-4xl font-semibold uppercase text-blue-800 sm:text-5xl lg:text-6xl"
           >
             I also like to write
           </h2>
@@ -26,7 +26,7 @@ const page = async () => {
                 {data.map((e) => (
                   <div className="p-4 md:w-1/3" key={e._id}>
                     <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                      <img lazyloading
+                      <img lazyloading="true"
                         className="lg:h-48 md:h-36 w-full object-cover object-center"
                         src={urlFor(e.blogimage).url() || "/assets/img/post-01.png"}
                         alt="blog"
