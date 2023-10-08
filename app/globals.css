@@ -154,6 +154,13 @@ html {
     font-family: var(--font1);
 
 }
+.photo{
+    border: 2px solid black;
+    border-radius: 55px;
+}
+.bd-radius{
+    border-radius: 20px;
+}
 
 .nav-left {
     display: flex;
@@ -352,5 +359,10 @@ html {
     }
     .center{
         text-align: center;
+    }
+}
+@media screen and (max-width: 900px) {
+    .mobile-css{
+        display: none;
     }
 }
