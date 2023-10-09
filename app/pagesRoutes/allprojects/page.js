@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 import client, { urlFor } from '@/app/components/client';
 
-const Allproject = async ({setProgress}) => {
+const Allproject = async () => {
   let query = `*[_type == "project"]`;
   const data = await client.fetch(query);
   
