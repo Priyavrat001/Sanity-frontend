@@ -26,7 +26,7 @@ const Project = async () => {
                       <img lazyloading="true"
                         className="lg:h-48 md:h-36 w-full object-cover object-center"
                         src={urlFor(e.image).url() || "/assets/img/post-01.png"}
-                        alt="blog"
+                        alt="project"
                       />
                       <div className="p-6">
                         <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
