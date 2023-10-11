@@ -39,7 +39,7 @@ const page = () => {
               WEB DEVELOPMENT
             </h3>
             <p className="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              I am building website using HTML, CSS, JS, Reatjs, Nextjs
             </p>
           </div>
         </div>
@@ -65,7 +65,7 @@ const page = () => {
               Technical Writing
             </h3>
             <p className="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              I am good in writing blogs and other onling contens.
             </p>
           </div>
         </div>
@@ -91,7 +91,7 @@ const page = () => {
               Web Design
             </h3>
             <p className="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+             I use Boostrap and tailwind for the designing.
             </p>
           </div>
         </div>
